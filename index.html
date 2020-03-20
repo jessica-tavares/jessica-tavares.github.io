@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Jéssica Tavares Rocha</title>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" media="all">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" media="all">
         <style>
             body {
                 text-align: center;
@@ -15,43 +15,59 @@
                 padding: 15px 20px;
                 border-radius: 4px;
                 text-decoration: none;
+                line-height: 55px;
             }
             #jess-linda {
-                border-radius: 50%;
+                border-radius: 20px;
             }
             .name {
-                font-family:Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 30px;
+                font-family: 'Permanent Marker', sans-serif;
+                font-size: 50px;
+                color: #135C40;
             }
             #sobre-mim {
                 font-family:'Times New Roman', Times, serif;
                 font-size: 18px;
             }
-            .table {
-                color: black
+            #sobre-mim a{
+                background-color: rgb(87, 243, 186);
+                font-weight: bold;
+                padding: 3px 3px;
+                text-decoration: none;
+            }
+            .linksone {
+                list-style-type: none;
+            }
+            .linksone a{
+                color: black;
+                background-color: rgb(87, 243, 186);
+                padding: 2px 2px;
+                text-decoration: none;
+                line-height: 1.5em;
+                border-radius: 2px;
             }
 
         </style>
     </head>
     <body>
         <h1 class="name">Jéssica Tavares Rocha</h1>
-        <ol class="table">
-            <a href="#jess-linda">Veja minha foto aqui!</a><br>
-            <a href="#sobre-mim">Um pouco sobre mim!</a><br>
-            <a href="#qualidades">Minhas maiores qualidades!</a><br>
-            <a href=".button">Meu estilo de blog preferido!</a><br>
-        </ol>
+        <ul>
+            <li class="linksone"><a href="#jess-linda">Veja minha foto aqui!</a></li>
+            <li class="linksone"><a href="#sobre-mim">Um pouco sobre mim!</a></li>
+            <li class="linksone"><a href="#qualidades">Minhas maiores qualidades!</a></li>
+            <li class="linksone"><a href=".button">Meu estilo de blog preferido!</a></li>
+        </ul>
         
         <img id="jess-linda" src="jess-linda.jpeg" alt="Mulher, 27 anos cabelo loiro, olhos castanhos estatura comum." width="500">
         <p id="sobre-mim"><strong style="color:#135C40;">Brasileira</strong> nascida e criada em <strong style="color:#135C40;">Belo Horizonte, Minas Gerais</strong>. <br>
         Graduada em Engenharia Elpetrica pela UNIFEI - Universidade Federal de Itajubá<br>
         Morei por 8 meses na Irlanda, onde estudei Inglês e me desenvolvi como pessoa.<br>
-        Hoje sou estudante de Desenvolvimento de Software na Trybe!
+        Hoje sou estudante de Desenvolvimento de Software na <a href="https://www.betrybe.com/">Trybe</a>!
         </p>
         <h2 id="qualidades">Minhas maiores Habilidades</h2>
-            <li><strong>Coragem</strong> de tentar coisas novas;</li>
-            <li><strong>Resiliencia</strong>, sabendo me adaptar as situações;</li>
-            <li><em>Pensamento lógico</em></li>
+            <li class="list"><strong>Coragem</strong> de tentar coisas novas;</li>
+            <li class="list"><strong>Resiliencia</strong>, sabendo me adaptar as situações;</li>
+            <li class="list"><em>Pensamento lógico</em></li>
         <h4><a href="#jess-linda"><em>Se quiser voltar para minha foto clique aqui.</em></a></h4><br>
         <h3><p>Que tal visitar meu estilo de blog favorito para entender um pouco mais sobre mim?<br>
             Apesar de toda a trajetoria na area de exatas eu amo culinária,<br>
