@@ -1,21 +1,38 @@
     body {
-        text-align: center;
         background-color: #D9FEF0;
+        text-align: center;
+        overflow-x: hidden;
     }
-    #button {
-        background-color: #25B880; 
+    .cabecalho {
+        background-color: rgb(66, 252, 122);
+        position: relative;
+        top: 0;
+        left: 10px;
+        right: 10px;
+        padding: 5px;
+    }
+    h1.name {
+        text-align: center;
+        font-family: 'Permanent Marker', sans-serif;
+        font-size: 50px;
+        color: #135C40;
+
+    }
+    #linksone{
         color: black;
-        padding: 15px 20px;
-        border-radius: 4px;
+        background-color: #135C40;
+        padding: 5px 10px;
         text-decoration: none;
-        line-height: 55px;
+        border-radius: 4px; 
+        border: 2px black;
+        margin: 10px;
+        font-weight: bold;
     }
     #sobre-mim {
         overflow: hidden;
         position: relative;
         width: 80%;
-        margin: 50px 50px 50px 50px;
-        
+        margin: 50px 50px 50px 50px; 
     }
     #jess-linda {
         border-radius: 50px;
@@ -24,8 +41,7 @@
         width: 30%;
         margin-left: 100px;
         padding: 6px;
-        background-color: rgb(5, 99, 64)
-
+        background-color: rgb(5, 99, 64);
     }
     #sobre-mim-right-div {
         font-family:'Times New Roman', Times, serif;
@@ -38,30 +54,10 @@
         padding: 120px 0;
         text-align: left;
     }
-    .name {
-        font-family: 'Permanent Marker', sans-serif;
-        font-size: 50px;
-        color: #135C40;
-    }
     #sobre-mim a{
         background-color: rgb(87, 243, 186);
         font-weight: bold;
         padding: 3px 3px;
-        text-decoration: none;
-    }
-    .linksone {
-        list-style-type: none;
-    }
-    .linksone a {
-        color: black;
-        background-color: rgb(87, 243, 186);
-        padding: 2px 2px;
-        text-decoration: none;
-        line-height: 1.5em;
-        border-radius: 2px;
-        
-    }
-    #social {
         text-decoration: none;
     }
     #qualidade-div {
@@ -80,5 +76,14 @@
         text-align: left;
         line-height: 1.5;
     }
-    
-    
+    #social {
+        text-decoration: none;
+    }
+    #button {
+        background-color: #25B880; 
+        color: black;
+        padding: 15px 20px;
+        border-radius: 4px;
+        text-decoration: none;
+        line-height: 55px;
+    }
