@@ -10,34 +10,38 @@
         text-decoration: none;
         line-height: 55px;
     }
-    #jess-linda {
-        border-radius: 30px;
+    #sobre-mim {
+        overflow: hidden;
+        position: relative;
+        width: 80%;
+        margin: 50px 50px 50px 50px;
         
     }
-    #jess-left-div {
+    #jess-linda {
+        border-radius: 50px;
+        border: 2px solid black;
         float: left;
-        width: 350px;
-        max-width: 40%;
-        margin:10px;
-        padding: 50px;
-        clear: both;
-    }
-    .name {
-        font-family: 'Permanent Marker', sans-serif;
-        font-size: 50px;
-        color: #135C40;
+        width: 30%;
+        margin-left: 100px;
+        padding: 6px;
+        background-color: rgb(5, 99, 64)
+
     }
     #sobre-mim-right-div {
         font-family:'Times New Roman', Times, serif;
         font-size: 18px;
         float: right;
-        left: 150px;
-        max-width: 60%;
-        margin: 10px;
+        width: 50%;
+        top: 600px;
+        border-style: none;
+        border-width: 50%;
+        padding: 120px 0;
         text-align: left;
-        padding: 50px;
-        clear: both;
-
+    }
+    .name {
+        font-family: 'Permanent Marker', sans-serif;
+        font-size: 50px;
+        color: #135C40;
     }
     #sobre-mim a{
         background-color: rgb(87, 243, 186);
@@ -61,6 +65,20 @@
         text-decoration: none;
     }
     #qualidade-div {
-        clear: both;
-
+        overflow: hidden;
+        position: relative;
+        width: 33%;
+        margin-left: 300px;
+        bottom: 50px;
+    } 
+    #qualidades {
+        font-size: 30px;
+        color: #135C40;
     }
+    #list {
+        margin-left: 500px;
+        text-align: left;
+        line-height: 1.5;
+    }
+    
+    
