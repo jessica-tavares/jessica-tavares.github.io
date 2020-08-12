@@ -2,10 +2,10 @@
 
 ## I'm a Software Developer!
 - 🔭 I’m 28 years old, Brazilian and living in Belo Horizonte
-- 🌱 I’m currently taking a full Stack Development course at Trybe 🤣
+- 🌱 I’m currently taking a full Stack Development course at Trybe
 - 👯 I’m looking for job oportunities as software Developer 
 - 🥅 2020/2021 Goals: Finish my course and start to learn making part of a team work!
-- ⚡ Fun fact: I love to communicate, watch series, and participate to a happy hour.
+- ⚡ Fun fact: I love to communicate, watch series, and participate to a happy hour. 🤣
 
 ### Connect with me:
 
