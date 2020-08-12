@@ -32,9 +32,5 @@
 <br />
 <br />
 
-------
-
-<img align="left" alt="codeSTACKr's Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=codeSTACKr&show_icons=true&hide_border=true" />
-
 [instagram]: https://www.instagram.com/jehhdisney/?hl=pt-br
 [linkedin]: https://www.linkedin.com/in/j%C3%A9ssicatavaresrocha/
